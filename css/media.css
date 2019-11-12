@@ -1,9 +1,7 @@
 
 
 @media screen and (min-width:1891px){
-  .form{
-    
-  }
+ 
 .main-contact{
   padding-left: 13%;
 
@@ -23,14 +21,9 @@
     padding-left: 30%;
   }
   
-  .form{
-    
-  }
-.main-contact{
-
+ 
 }
-}
-
+/* 
 @media screen and (max-width:1400px){
   .main-contact{
     margin: 30px;
@@ -41,9 +34,9 @@
   .author{
     padding-right: 0;
   }
-}
+} */
 
-@media screen and (max-width:860px){
+@media screen and (max-width:1400px){
   .main-contact{
     margin: 20px;
   }
@@ -58,18 +51,13 @@
     margin-left: -85px;
   }
   
-  .text{
+  /* .text{
     text-align: center;
   }
   .text__content{
     margin: 0 auto;
-  }
-  .footer-contact{
-    /* flex-direction: column;
-    padding: 0 15px;
-    text-align: center; */
-
-  }
+  } */
+  
   .img{
     
     margin-left: -85px;
@@ -77,8 +65,14 @@
   .footer__text{
     margin-right: 15px;
    
-    margin-top: -100px;
+    
     margin-bottom: 50px;
+  }
+  .footer-contact{
+    padding: 23px 30px;
+  }
+  .author{
+    padding-right: 0;
   }
 }
 @media screen and (max-width:768px){
@@ -99,6 +93,13 @@
     flex-direction: column;
     margin-right: 30px;
   }
+  .img{
+    height: 75%;
+    margin-top: 90px;
+  }
+  .footer__text{
+    text-align: center;
+  }
   .footer-contact{
 text-align: center;
   }
@@ -111,48 +112,35 @@ text-align: center;
   .article{
     
   }}
-/* @media screen and (max-width:660px){
-  .footer{
-    padding: 23px 25px;
-  }
-  .form{
-    margin-right: 90px;
-  }
-  .author{
-    padding-left: 20px;
-  }
-  body{
-  
-  }
-} */
 @media screen and (max-width:500px){
   body{
     width: 600px;
   }
   .form{
-    margin: 0;
+  padding-right: 50px;
   }
   .main{
     flex-direction: column-reverse;
     align-items: center;
   }
-  .info-element{
-    text-align: center;
-    margin-bottom: 15px;
-    margin-top: 0%;
-    width: 100%;
-  }
+  
 .footer__text{
   margin-left: -10px;
+  text-align: center;
 }  
-
+.img{
+  height: 50%;
+  margin-top: 160px;
+}
   .main-contact{
-    margin-left: -20px;
+flex-direction: column;
+text-align: center;
+
   }
-  /* .author{
-    padding-left: 20px;
-    word-break: break-all;
-  } */
+  .content_title{
+    padding-right: 30px;
+  }
+ 
   .wrap-blog{
     margin-right: 30px;
   }
@@ -167,129 +155,12 @@ text-align: center;
     word-break: initial;
     margin-right: -90px;
   }
-}
-@media screen and (max-width:320px){
-  body{
-    width: 325px;
-  }
-  .title-name{
-    word-break: break-word;
-  }
-  .header{
-flex-direction: column;
-  }
-  .text__content{
-
-  }
-  .img{
-margin: 0;
-  }
-  .mainer{
-    flex-direction: column;
-
-  }
-  .wrap--fix{
-
-  }
-  .footer__text{
-    margin-left: -75px;
-  }
-  .text-blog{
-
   
-  }
-  .main-contact{
-    flex-direction: column;
-  }
-  .header__col{
-    padding: 0;
-  }
-  .navigation{
-    padding-left: 50px;
-  }
-  .article{
 
-  }
-  .mainer-blog{
-
-  }
-  .wrap-blog{
-margin-right: 30px;
-  }
-  .form{
-    /* width: 100%; */
-  }
-  .info-element{
-    
-    display: contents;
-  }
   .content_title{
     margin-left: 50px;
   }
-  .footer-contact{
-    flex-direction: row;
-    /* margin: 0; */
-  }
-  .logo{
-    padding: 0 15px ;
-  }
-  .author{
-    word-break: initial;
-    padding: 0;
-  }
-  .content_info_example{
-    margin-left: 50px;
-  }
+
+ 
+  
 }
-@media screen and (max-width:768px){
-  /* .header-footer{
-    flex-direction: column;
-  }
-  .header__col--stretch{
-    flex-direction: column;
-  }
-  .text-footer{
-    text-align: center;
-  }
-  .text__content{
-    margin: 0 auto;
-  }
-  .footer-footer{
-    flex-direction: column;
-    padding: 0 15px;
-    text-align: center;
-  }
-  .img{
-    margin: 0 auto;
-  }
-  .footer__text{
-    padding: 0;
-  } */
-
-}
-/* @media screen and (max-width:990px){
-
-}
-
-
-@media screen and (max-width:990px){
-  body{
-    background-color: rgba(255, 0, 0, 0.239);
-  }
-  }
-  @media screen and (max-width:768px){
-  body{
-    background-color: rgba(0, 255, 255, 0.294);
-  }
-  
-  
-  .wrap-blog{
-    flex-direction: column;
-  
-  }
-  .article{
-    margin: 15px 0;
-  }
-  
-  }
-   */
