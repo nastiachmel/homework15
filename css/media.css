@@ -62,11 +62,13 @@
   .navigtion__item {
     display: none; 
     margin: 0;
+    padding-left: 13px;
 }
 .navigation__link{
 
   color: white;
 } 
+
   .navigtion__menu:hover .navigtion__item {
     display: block;
     margin: 0 0 5px;

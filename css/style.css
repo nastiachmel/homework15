@@ -60,7 +60,7 @@
   display: flex;
 }
 .current{
-  display:none;
+display:none;
 }
 .navigation__link{
   margin: 0 45px 0 0;
