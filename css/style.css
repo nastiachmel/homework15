@@ -55,10 +55,11 @@
 .navigation{
   flex-grow: 1;
 }
-.navigtion__menu{
+.navigation__menu{
   list-style: none;
   display: flex;
 }
+
 .current{
 display:none;
 }
