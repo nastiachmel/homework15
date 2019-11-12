@@ -12,12 +12,12 @@
   src: url('../font/Pacifico-Regular.woff'),
   url('../font/9119.woff2');
 }
-.wrap{
+.mainer{
   max-width: 1500px;
   margin: 0 auto;
   /* padding-left:100px; */
 }
-.mainer{
+.wrap{
   background-image: url(../img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -108,7 +108,7 @@
   display: flex; 
  
 }
-.wrap--fix{
+.mainer--fix{
   display: flex; 
   padding-left: 80px;
 }
@@ -147,7 +147,7 @@
  padding: 0 15px;
  
 }
-.title{
+.title-blog{
   font-size: 90px; 
   text-align: center; 
   font-weight: bold;
@@ -309,7 +309,7 @@ ul:hover .article{
 
 
 /*  */
-.bg{
+.bg-contact{
   background-image: url(../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
@@ -319,22 +319,22 @@ ul:hover .article{
   margin: 0 auto;
 } */
 
-.header-footer{
+.header-contact{
   text-align: center;
   padding-top: 75px;
 }
-.header-footer .title-name{
+.header-contact .title-name{
   font-weight: bold;
   font-size: 90px;  
 }
-.header-footer .title-text{
+.header-contact .title-text{
   font-weight: 300;  
   font-size: 17px;
   max-width: 346px;
   display: inline-block;
   margin: 15px 0 50px 0;
 }
-.main-footer{
+.main-contact{
   display: flex; 
   /* margin-left: 120px; */
   justify-content: space-around;
@@ -345,6 +345,7 @@ ul:hover .article{
 }
 .form{
   max-width: 500px;
+  margin-left: 50px;
   /* margin-left: 70px;
   width: 50%; */
   /* margin-right: 180px; */
@@ -392,7 +393,7 @@ input[type="email"]:invalid{
   font-size: 18px;
   padding-bottom: 15px;
 }
-.footer-footer{
+.footer-contact{
   background-color: #262626;
   padding: 23px 120px 23px 120px;
   display: flex;
