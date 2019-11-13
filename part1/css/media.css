@@ -55,6 +55,7 @@
   display: inline;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-left: -15px;
 }
   .navigation__menu {
     width: 100px;
