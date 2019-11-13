@@ -252,6 +252,10 @@
   .nav__item{
     width: 50%;
   }
+  .nav__item:hover{
+    transform: scale(1);
+    
+  }
   
 }
 /* @media screen and (max-width:520px){
