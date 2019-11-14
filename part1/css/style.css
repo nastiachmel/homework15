@@ -49,17 +49,15 @@
 .logo__title:hover{
   color: hsl(13, 94%, 67%);
 }
-.navigation{
+/* .navigation{
   flex-grow: 1;
-}
-.navigation__menu{
+} */
+/* .navigation__menu{
   list-style: none;
   display: flex;
-}
+} */
 
-.current{
-display:none;
-}
+
 .navigation__link{
   margin: 0 45px 0 0;
   font-family: 'Raleway-heavy';
@@ -353,3 +351,40 @@ input[type="email"]:invalid{
   color: #b9b9b9;
  }
 /*  */
+.menu {
+  text-align: right;
+}
+
+.menu__icon {
+ /* display: none; */
+ width: 45px;
+ height: 35px;
+ /* position: relative; */
+ cursor: pointer;
+}
+
+.navigation__menu{
+  list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.menu__icon span {
+display: block;
+position: absolute;
+height: 9px;
+width: 100%;
+background: #333333;
+border-radius: 9px;
+opacity: 1;
+left: 0;
+transform: rotate(0deg);
+transition: .25s ease-in-out;
+}
+
+.navigation__link:hover {
+  text-decoration: none;
+}
+
+
