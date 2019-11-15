@@ -44,6 +44,7 @@
   padding-bottom: 30px;
   margin: 145px auto 160px auto ;
   box-sizing: border-box;
+  word-break: break-all;
 }
  .fieldset__title{
   padding: 0 104px;
@@ -207,12 +208,12 @@
 .button{
   background-color: #3c3c3c;
   color: white;
-  width: 395px;
+ 
   text-transform: uppercase;
   border: 0;
   font-size: 16px;
   display: block;
-  padding: 23px 0;
+  padding: 23px 145px;
   margin:45px auto  ;
   cursor: pointer;
 }
@@ -238,7 +239,7 @@
 
 @media screen and (max-width:786px){
   body{
-    width: 786px;
+    width: 100%;
   }
   .nav__el{
     flex-direction: column;
@@ -252,8 +253,7 @@
   .nav__item{
     width: 50%;
   }
-  
-  
+ 
 }
 /* @media screen and (max-width:520px){
 body{
@@ -270,8 +270,11 @@ body{
 } */
 @media screen and (max-width:480px){ 
   body{
-  /* width:480px; */
+ width: 100%;
   margin: 0;
+    }
+    .header__title{
+      word-break: break-all;
     }
     .nav__list{   
       /* width: 100%; */
